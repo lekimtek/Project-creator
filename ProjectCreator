@@ -1,0 +1,34 @@
+#!/bin/bash -e
+
+
+echo "This Create New Project"
+echo "Enter name of new project"
+
+defaultdir="/home/lekim/Documentos/PlatformIO/projects/"
+echo "this is de default path for projects (changes via script)"
+echo $defaultdir
+read -t 100 -r -p "Project and Folder Name : " newdir
+`mkdir $defaultdir$newdir`
+echo "Enter name of board, current nodemcuv2"
+echo 
+read -t 100 -r -p "Set board 
+esp32dev 
+uno 
+esp01_1m 
+d1_mini
+nodemcu
+nodemcuv2
+esp12e
+node32s
+nodemcu-32s
+esp32dev
+See list whith pio boards --installed command : " newboard
+
+
+
+
+~/.platformio/penv/bin/platformio project init --ide vscode --board $newboard -d $defaultdir$newdir
+
+
+
+ 
