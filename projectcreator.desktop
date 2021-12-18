@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PioProjectCreate
+GenericName=PioProjectCreator
+Comment=create a new project on new folder
+Exec=/home/lekim/Escritorio/ProjectCreator
+Terminal=true
+MimeType=text/plain;
+Icon=thunderbolt
+Categories=TextEditor;Development;
+StartupNotify=true
+Actions=Window;Document;
+Path=
+
+
