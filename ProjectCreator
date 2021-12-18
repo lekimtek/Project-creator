@@ -4,7 +4,7 @@
 echo "This Create New Project"
 echo "Enter name of new project"
 
-defaultdir="/home/lekim/Documentos/PlatformIO/projects/"
+defaultdir="~/Documentos/PlatformIO/projects/"
 echo "this is de default path for projects (changes via script)"
 echo $defaultdir
 read -t 100 -r -p "Project and Folder Name : " newdir
